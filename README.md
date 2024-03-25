@@ -23,7 +23,7 @@ You will also need to install docker* which we will use to create our local Mong
 *https://www.docker.com/products/docker-desktop/
 ## Running The Program
 
-Included in this submission is a csv file which contains all of the results scraped from gradcafe. To insert these results into the database, you can run the gradPopulate.py file which will take roughly 20 minutes to completely run. Once that finishes, you can then run the gradInterface.py file which provides you with an interface to ask questions regarding the data scraped. 
+Included in this repository is a zip file containing the csv file which has all of the results scraped from gradcafe. To insert these results into the database, you will first need to uncompress the zip file and then move the csv file outside of that folder. Then you can run the gradPopulate.py file which will take roughly 20 minutes to completely run. Once that finishes, you can then run the gradInterface.py file which provides you with an interface to ask questions regarding the data scraped as shown below:
 
 
 
