@@ -12,7 +12,7 @@ To run this project you should have Python 3.11.5 or a later version. Additional
 	pip install -r requirements.txt
 
 
-You will also need to install docker which we will use to create our local MongoDB database. Once installed, you can then go to the terminal and run the following two commands:
+You will also need to install docker* which we will use to create our local MongoDB database. Once installed, you can then go to the terminal and run the following two commands:
 
 
 	docker pull mongodb/mongodb-community-server:latest
@@ -20,6 +20,7 @@ You will also need to install docker which we will use to create our local Mongo
 
 
 
+*https://www.docker.com/products/docker-desktop/
 ## Running The Program
 
 Included in this submission is a csv file which contains all of the results scraped from gradcafe. To insert these results into the database, you can run the gradPopulate.py file which will take roughly 20 minutes to completely run. Once that finishes, you can then run the gradInterface.py file which provides you with an interface to ask questions regarding the data scraped. 
