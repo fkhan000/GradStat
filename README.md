@@ -9,20 +9,20 @@ This is a project that allows you to look at statistics drawn from data scraped 
 To run this project you should have Python 3.11.5 or a later version. Additionally, you will also need to install the packages given in the requirements.txt file. To install them, go to the terminal and cd into the directory where this file is located. Then run the following command:
 
 
-pip install -r requirements.txt
+	pip install -r requirements.txt
 
 
-	You will also need to install docker which we will use to create our local MongoDB database. Once installed, you can then go to the terminal and run the following two commands:
+You will also need to install docker which we will use to create our local MongoDB database. Once installed, you can then go to the terminal and run the following two commands:
 
 
-docker pull mongodb/mongodb-community-server:latest
-docker run —-name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest
+	docker pull mongodb/mongodb-community-server:latest
+	docker run —-name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest
 
 
 
 ## Running The Program
 
-	Included in this submission is a csv file which contains all of the results scraped from gradcafe. To insert these results into the database, you can run the gradPopulate.py file which will take roughly 20 minutes to completely run. Once that finishes, you can then run the gradInterface.py file which provides you with an interface to ask questions regarding the data scraped.
+Included in this submission is a csv file which contains all of the results scraped from gradcafe. To insert these results into the database, you can run the gradPopulate.py file which will take roughly 20 minutes to completely run. Once that finishes, you can then run the gradInterface.py file which provides you with an interface to ask questions regarding the data scraped. 
 
 
 
